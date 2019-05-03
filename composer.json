@@ -1,0 +1,28 @@
+{
+    "name": "lavoweb/translationinherit",
+    "description": "Translation inherit/locale fallback for Magento 2",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LavoWeb\\TranslationInherit\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "LavoWeb/TranslationInherit"
+            ]
+        ]
+    }
+}
